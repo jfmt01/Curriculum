@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    color: white;
+}
+nav{ 
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+nav>ul{
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+nav>ul>li>a{
+    margin: 10px ;
+    text-decoration: none;
+    color: blue;
+}
+
+
+
+.foto {
+    border-radius: 300px;
+}
+
+.contenedor{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.datos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedora{
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
